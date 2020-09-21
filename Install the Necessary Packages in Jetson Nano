@@ -1,0 +1,14 @@
+Let's start by enabling SSH in case you want to do all the rest of the work remotely.
+
+sudo apt update
+sudo apt install openssh-server
+The SSH server will start automatically.
+
+To connect to your Ubuntu machine over LAN you only need to enter the following command:
+
+ssh username@ip_address
+If you have Windows machine, you will need to install SSH client, for example Putty.
+
+Let's start by installing Python Package Manager(pip) and Pillow for image manipulation.
+
+sudo apt install python3-pip python3-pil
