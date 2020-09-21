@@ -1,0 +1,30 @@
+if(Serial.available()) {
+switch(Serial.read()) {
+
+{
+
+case '1':
+
+forward();
+
+break;
+
+case '2':
+
+back();
+
+break;
+
+case '3':
+
+turn_right();
+
+break;
+
+case '4':
+
+turn_left();
+
+break;
+
+////We check if there's data available, and if it is, pass it to the switch-case control structure. Pay attention, that data from the serial comes as characters, notice the single quotation mark around the numbers 1,2,3,4.
